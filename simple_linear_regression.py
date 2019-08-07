@@ -23,7 +23,7 @@ y_pred = regressor.predict(X_test)
 plt.scatter(X_train, y_train, color = 'blue')
 plt.plot(X_train, regressor.predict(X_train), color = 'red')
 plt.title('Salary vs Experience in the training set')
-plt.xlabel('Experience in USD')
+plt.xlabel('Experience in years')
 plt.ylabel('Salary in USD')
 plt.show()
 
